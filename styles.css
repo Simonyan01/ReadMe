@@ -1,0 +1,129 @@
+#FONTS {
+    color: #39951c;
+}
+
+.font {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
+    margin-left: 87em;
+}
+
+.font1 {
+    margin-left: 89em;
+}
+
+.name {
+    font-size: 50px;
+}
+
+.H3 {
+    text-align: center;
+    transition: color .2s linear;
+}
+
+.H3:hover {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.text {
+    margin-left: 550px;
+    margin-right: 550px;
+}
+
+.iClass {
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-size: larger;
+}
+
+.images {
+    width: 400px;
+    height: auto;
+    margin: 30px;
+    box-shadow: 0 10px 50px black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.Form {
+    display: flex;
+    margin-top: 55px;
+    cursor: pointer;
+}
+
+.Form #fname {
+    background: white;
+    margin: 85px;
+    border-radius: 8px;
+
+}
+
+.Form #fname:hover {
+    color: rgb(255, 255, 255);
+    background: rgb(10, 2, 2);
+    cursor: pointer;
+    transform: scale(2, 2);
+}
+
+.Form #lname {
+    background: rgb(255, 255, 255);
+    margin: 85px;
+    border-radius: 8px;
+}
+
+.Form #lname:hover {
+    color: rgb(255, 255, 255);
+    background: rgb(10, 2, 2);
+    cursor: pointer;
+    transform: scale(2, 2);
+}
+
+.submit {
+    margin: 85px;
+    padding: 0 20px 0 20px;
+    border-radius: 8px;
+
+}
+
+.submit:hover {
+    color: rgb(255, 255, 255);
+    background: #000000;
+    cursor: pointer;
+    transform: scale(2, 2);
+}
+
+button {
+    margin: 100px 0 0 100px;
+    padding: 5px 25px 5px 25px;
+    cursor: pointer;
+    transition: color .2s linear;
+    background: #000000;
+    color: rgb(171, 34, 34);
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.button:hover {
+    color: rgb(255, 0, 0);
+    transform: scale(1.5, 1.5);
+}
+
+.footer {
+    text-align: center;
+    font-size: xx-large;
+    cursor: pointer;
+    margin: 200px;
+    background: #000000;
+    color: crimson;
+    padding: 200px;
+    border: solid 2px black;
+    animation: lightSpeedInLeft 3s infinite alternate;
+}
+
+.thankYou {
+    animation: fadeOutUpBig 6s infinite alternate;
+    font-size: xx-large;
+    margin-top: 155px;
+    text-align: center;
+}
